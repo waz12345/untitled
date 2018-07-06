@@ -1,0 +1,36 @@
+body{font-family:sans-serif;color:red;
+           background-color:#d2b48c;
+            padding:10px 10px 10px 10px;
+             text-align:center;
+             border:2px dashed red;
+               background-image:url(0.jpg);
+                   }
+h1{
+                        color:gray;
+                          border-bottom:1px solid black;}
+              h2{
+                        color:gray;
+                        text-decoration:underline;}
+                p {color:red;}
+                 ol{color:red;list-style:square inside url('/i/arrow.gif');}
+       blockquote{color:green;}
+           p.greentea{color:green;
+                     font-style:normal;
+                        font-size:200%;line-height:90%;
+                          font-weight:bold;}
+            p.raspberry{
+                          color:purple;
+                               font-style:italic;
+                                 font-size:200%;line-height:90%;
+                                   font-weight:bold;}
+           p.yellowtea{
+                        color:yellow;
+                       font-style:oblique;
+                          font-size:200%;line-height:90%;
+                              font-weight:900;}
+      p.buleberry{
+                       color:bule;
+                       font-style:oblique;
+                    line-height:90%; font-size:200%;
+                      font-weight:900;}
+                   
