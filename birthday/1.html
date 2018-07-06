@@ -13,7 +13,7 @@
                 form.password.focus();
                 return false;
             }
-            else if(password=="19990412"||password=="990412"){
+            else if(password=="19980829"||password=="980829"){
                 return true;
             }
             else{
@@ -27,10 +27,13 @@
     <link type="text/css" rel="stylesheet" href="字体.css">
 </head>
 <body>
+<section>
+<marquee behavior="alternate" style="font-size:18px;padding:30px 0;height:30px;max-width: 300px;color: fuchsia;" >承蒙你出现 够我喜欢好多年</marquee>
 <p>祝陈金正生日快乐</p>
 <audio src="" autoplay="autoplay" loop="loop"></audio>
 <form action="2.html" style="paddong:20px 0 0 0;" name="form">
-    <input type="text" name="name" value="             陈金正"><br/>
+    <span id="sss">密码错误！！</span><br/>
+    <input type="text" name="name" value="                陈金正"><br/>
     <input id="password" type="password" name="password" placeholder="      Input Your Birthday" onblur="check(form)"required><br/>
     <input id="login" type="submit" value="确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定" onclick="return check(form)"><br/>
 </form>>
