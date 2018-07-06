@@ -18,3 +18,16 @@ p{
     color:red;
     opacity: 0;
 }
+form input {
+     border:1px solid rgba(255,255,255,0.4);
+     width:210px;
+     border-radius:3px;
+     padding: 10px 15px;
+     margin:10px auto;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 300;
+     z-index: 100;
+     transition-duration: 0.25s;
+     -webkit-transition-duration: 0.25s;
+ }
