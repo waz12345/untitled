@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生日快乐</title>
+    <script type="text/javascript">
+        alert("您有一个来自女朋友的惊喜");
+        function check(form){
+            var password=document.getElementById("password").value.toString();
+            if(!password||password==null){
+                var ss1=document.getElementById("sss");
+                ss1.style.opacity=1;
+                form.password.focus();
+                return false;
+            }
+            else if(password=="19990412"||password=="990412"){
+                return true;
+            }
+            else{
+                var ss2=document.getElementById("sss");
+                ss2.style.opacity=1;
+                form.password.focus();
+                return false;
+            }
+        }
+    </script>
+    <link type="text/css" rel="stylesheet" href="字体.css">
+</head>
+<body>
+<p>祝陈金正生日快乐</p>
+<audio src="" autoplay="autoplay" loop="loop"></audio>
+<form action="2.html" style="paddong:20px 0 0 0;" name="form">
+    <input type="text" name="name" value="             陈金正"><br/>
+    <input id="password" type="password" name="password" placeholder="      Input Your Birthday" onblur="check(form)"required><br/>
+    <input id="login" type="submit" value="确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定" onclick="return check(form)"><br/>
+</form>>
+</body>
+</html>
