@@ -1,3 +1,6 @@
+body{
+    background: url("背景图2.jpg");
+}
 #HappyBirthday {
     animation: happy 122s infinite;
     -moz-animation:happy 122s infinite; /* Firefox */
