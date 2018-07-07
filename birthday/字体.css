@@ -2,6 +2,9 @@ body {
     background: url(背景图1.jpg);
     padding:20px 20px 20px 20px;
     text-align:center;
+    background-size:auto;
+    width:auto;
+    height: auto;
 }
 p{
     text-align: center;
