@@ -2,6 +2,7 @@ body{
     background-image: url("背景图2.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 #HappyBirthday {
     animation: happy 122s infinite;
