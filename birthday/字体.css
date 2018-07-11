@@ -6,13 +6,13 @@ body{
     text-align: center;
 
 }
-p{
+#2 {
     text-align: center;
     -webkit-text-stroke: 2px white;
     position: relative;
     text-transform: uppercase;
     color: #252527;
-    font-size: 10vw;
+    font-size: 12vw;
     letter-spacing: 0.6vw;
     font-weight: 70;
     font-family:"楷体";
