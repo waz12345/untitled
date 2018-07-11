@@ -1,5 +1,5 @@
 body{
-    background-image: url("背景图2.jpg");
+    background-image: url("背景图3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -7,11 +7,11 @@ body{
 
 }
 p{
+    color: crimson;
     text-align: center;
     -webkit-text-stroke: 2px white;
     position: relative;
     text-transform: uppercase;
-    color: #252527;
     font-size: 12vw;
     letter-spacing: 0.6vw;
     font-weight: 70;
