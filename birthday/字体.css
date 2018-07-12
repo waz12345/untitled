@@ -4,6 +4,10 @@ div{
     background-position: center;
     background-size: contain;
     text-align: center;
+    margin:0;
+    padding:0;
+    border-width:0px;
+    border-collapse:collapse;
 
 }
 p{
