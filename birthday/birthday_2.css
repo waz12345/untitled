@@ -1,7 +1,14 @@
-body{
-    background-image: url("背景图2.jpg");
-    background-repeat: no-repeat;
+
+body {
+    background:url("背景图2.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    padding:0;
+    margin:0;
+    font-family: "Microsoft YaHei";
+
+}
+section {
     margin:0 auto;
     position: absolute;
     top: 0;
