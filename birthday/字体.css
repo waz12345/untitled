@@ -34,3 +34,6 @@ form input {
      transition-duration: 0.25s;
      -webkit-transition-duration: 0.25s;
  }
+ul{
+    opacity: 0;
+}
