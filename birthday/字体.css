@@ -2,13 +2,8 @@ div{
     background-image: url("背景图5.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size:cover;
     text-align: center;
-    margin:0;
-    padding:0;
-    border-width:0px;
-    border-collapse:collapse;
-
 }
 p{
     color: crimson;
@@ -30,7 +25,7 @@ form input {
      width:210px;
      border-radius:3px;
      padding: 10px 15px;
-     margin:10px auto;
+     margin: 10px auto;
      text-align: center;
      font-size: 18px;
      font-weight: 300;
