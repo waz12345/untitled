@@ -3,7 +3,9 @@ div{
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
-  margin: 0px;
+}
+body{
+    margin: 0px;
     padding: 0px;
 }
 p{
