@@ -2,7 +2,7 @@ div{
     background-image: url("背景图5.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:100% 100%;
     text-align: center;
 }
 p{
