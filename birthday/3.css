@@ -1,8 +1,158 @@
-div#leave_word {
+body{
+    background:url("背景图4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+div#leave_word{
     height:100%;
     width:100%;
     padding: 0;
     margin: 0;
     overflow: hidden;
     position: absolute;
+}
+div#head{
+    text-align: center;
+
+}
+
+#head p:nth-child(1) {
+     animation: p1 236s linear;
+     -webkit-animation:p1 236s linear;
+     margin-top: 40px;
+ }
+#head p:nth-child(2) {
+    animation: p2 236s  linear;
+    -webkit-animation:p2 236s   linear;
+}
+div#first {
+    width: 50%;
+    margin: 0 25% 0 25%;
+    right: 25%;
+    height: 50%;
+    border: solid;
+    text-align: center;
+    animation: one 40s;
+    -webkit-animation: one 40s;
+}
+#first span:nth-child(1) {
+    animation: span1 236s linear;
+    -webkit-animation:span1 236s linear;
+}
+#first span:nth-child(2) {
+    animation: span2 236s linear;
+    -webkit-animation: span2 236s linear;
+}
+@keyframes p1 {
+    0%{opacity: 0;}
+    1.6%{opacity: 100;}
+    4.6%{opacity: 0;}
+    100%{opacity: 0;}
+
+}
+@-moz-keyframes p1 {
+    0%{opacity: 0;}
+    1.6%{opacity: 100;}
+    4.6%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes p2 {
+    0%{opacity: 0;}
+    1.6%{opacity: 0;}
+    3.0%{opacity: 100;}
+    4.6%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-moz-keyframes p2 {
+    0%{opacity: 0;}
+    1.6%{opacity: 0;}
+    3.0%{opacity: 100;}
+    4.6%{opacity: 0;}
+    100%{opacity: 0;}
+
+}
+@keyframes span1 {
+
+    0%{opacity: 0;}
+    1.6%{opacity: 0;}
+    3.0%{opacity: 0;}
+    4.6%{opacity: 100;}
+    11.9%{opacity: 100}
+    12.3%{opacity: 0}
+    100%{opacity: 0}
+
+}
+@-moz-keyframes span1 {
+
+0%{opacity: 0;}
+1.6%{opacity: 0;}
+3.0%{opacity: 0;}
+4.6%{opacity: 100;}
+11.9%{opacity: 100}
+12.3%{opacity: 0}
+100%{opacity: 0}
+
+}
+@keyframes span2 {
+    0%{opacity: 0;}
+    1.6%{opacity: 0;}
+    3.0%{opacity: 0;}
+    4.6%{opacity: 0;}
+    5.0%{opacity: 100;}
+    11.9%{opacity: 0}
+    100%{opacity: 0}
+}
+@-moz-keyframes span2 {
+    0%{opacity: 0;}
+    1.6%{opacity: 0;}
+    3.0%{opacity: 0;}
+    4.6%{opacity: 0;}
+    5.0%{opacity: 100;}
+    11.9%{opacity: 0}
+    100%{opacity: 0}
+
+}
+@keyframes one {
+0%{  width: 0;
+    left: 0%;
+    right: 0%;
+    height: 0;}
+    25%{  width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 0;}
+    50%{  width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 50%;}
+    75%{  width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 0;}
+    100%{  width: 0;
+        left: 25%;
+        right: 25%;
+        height: 0;}
+}
+@-moz-keyframes one{
+    0%{  width: 0;
+        left: 25%;
+        right: 25%;
+        height: 0;}
+    25%{  width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 0;}
+    50%{  width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 50%;}
+    75%{  width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 0;}
+    100%{  width: 0;
+        left: 25%;
+        right: 25%;
+        height: 0;}
 }
