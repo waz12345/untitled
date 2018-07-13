@@ -216,7 +216,7 @@ div#flame li{
 }
 div#text {
     clear: left;
-    textn-align: ceter;
+    text-align: center;
     font-size: 12px;
 }
 div#text p{
