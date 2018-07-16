@@ -85,6 +85,42 @@ div#text1{
          animation: p7 300s linear;
          -webkit-animation:p7 300s linear;
      }
+#text2{
+    position: absolute;
+    align-content: center;
+    width: 0;
+    margin-left: 21%;
+    top: 35.5%;
+    border-color: #ee9ca7;
+    height: 0px;
+    border: solid;
+    opacity: 0;
+    animation: k2 300s;
+    -webkit-animation: k2 300s;
+}
+#text2 p{
+    opacity: 0;
+    aninmation: p8 300s linear;
+    -webkit-animation: p8 300s linear;
+}
+#text3{
+    position: absolute;
+    align-content: center;
+    width: 0;
+    margin-left: 21%;
+    top: 60%;
+    border-color: #ee9ca7;
+    height: 0px;
+    border: solid;
+    opacity: 0;
+    animation: k3 300s;
+    -webkit-animation: k3 300s;
+}
+#text3 p{
+    opacity: 0;
+    aninmation: p9 300s linear;
+    -webkit-animation: p9 300s linear;
+}
 @keyframes p1 {
   0%{opacity: 0}
     2%{
@@ -545,7 +581,60 @@ div#text1{
         opacity: 0;
     }
 }
+@keyframes p8 {
+    0%{
+        opacity: 0;
+    }
+    18.3%{
+        opacity: 0;
+    }
+    21.3%{
+        opacity: 1;
+    }
+    22.4%{
+        opacity: 0;
+    }
 
+}
+@-moz-keyframes p8 {
+    0%{
+        opacity: 0;
+    }
+    18.3%{
+        opacity: 0;
+    }
+    21.3%{
+        opacity: 1;
+    }
+    22.4%{
+        opacity: 0;
+    }
+
+
+}
+@keyframes p9 {
+    25.4%{
+        opacity: 0;
+    }
+    28.4%{
+        opacity: 1;
+    }
+    29.5%{
+        opacity: 0;
+    }
+
+}
+@-moz-keyframes p9 {
+    25.4%{
+        opacity: 0;
+    }
+    28.4%{
+        opacity: 1;
+    }
+    29.5%{
+        opacity: 0;
+    }
+}
 @keyframes firstball {
     0%{
         left:20%;
@@ -569,7 +658,17 @@ div#text1{
     }
     16.3%{
         left: 20%;
-        top:25.5%;
+        top:35.5%;
+        opacity: 1;
+    }
+    23.4%{
+        left: 20%;
+        top:35.5%;
+        opacity: 1;
+    }
+    24.4%{
+        left: 20%;
+        top: 60%;
         opacity: 1;
     }
 }
@@ -587,6 +686,26 @@ div#text1{
     2.4%{
         left: 20%;
         top:25.5%;
+        opacity: 1;
+    }
+    15.3%{
+        left: 20%;
+        top:15.5%;
+        opacity: 1;
+    }
+    16.3%{
+        left: 20%;
+        top:35.5%;
+        opacity: 1;
+    }
+    23.4%{
+        left: 20%;
+        top:35.5%;
+        opacity: 1;
+    }
+    24.4%{
+        left: 20%;
+        top: 60%;
         opacity: 1;
     }
 
@@ -611,7 +730,7 @@ div#text1{
         width: 10px;
     }
 
-    16.3%{
+    23.4%{
         left:20%;
         top:0;
         height:100%;
@@ -639,7 +758,7 @@ div#text1{
         width: 10px;
     }
 
-    16.3%{
+    23.4%{
         left:20%;
         top:0;
         height:100%;
@@ -731,6 +850,108 @@ div#text1{
         height: 0;
     }
     15.4%{
+        opacity: 0;
+    }
+}
+@keyframes k2 {
+    16.2%{
+        opacity: 0;
+    }
+    16.3%{
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    18.3%{
+        height: 50%;
+        width:50%;
+        opacity: 1;
+    }
+    22.4%{
+        height: 50%;
+        width: 50%;
+        opacity: 1;
+    }
+    23.4%{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+}
+@-moz-keyframes k2 {
+    16.2%{
+        opacity: 0;
+    }
+    16.3%{
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    18.3%{
+        height: 50%;
+        width: 50%;
+        opacity: 1;
+    }
+    22.4%{
+        height: 50%;
+        width: 50%;
+        opacity: 1;
+    }
+    23.4%{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+}
+@keyframes k3 {
+    24.3%{
+        opacity: 0;
+    }
+    24.4%{
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    25.4%{
+        height:50%;
+        width: 50%;
+        opacity: 1;
+
+    }
+    29.5%{
+        height: 50%;
+        width: 50%;
+        opacity: 1;
+    }
+    30.5%{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+}
+@-moz-keyframes k3 {
+    24.3%{
+        opacity: 0;
+    }
+    24.4%{
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    25.4%{
+        height:50%;
+        width: 50%;
+        opacity: 1;
+
+    }
+    29.5%{
+        height: 50%;
+        width: 50%;
+        opacity: 1;
+    }
+    30.5%{
+        height: 0;
+        width: 0;
         opacity: 0;
     }
 }
