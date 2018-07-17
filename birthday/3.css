@@ -32,7 +32,7 @@ div#leave_word{
     left: 20%;
 }
 .z{
-    font-size: large;
+    font-size: 115%;
     font-family: 楷体;
     align-items: center;
 }
@@ -49,7 +49,7 @@ div#text1{
     align-content: center;
     width: 0;
     margin-left: 21%;
-    top: 15.5%;
+    top: 5%;
     border-color: #ee9ca7;
     height: 0px;
     border: solid;
@@ -90,7 +90,7 @@ div#text1{
     align-content: center;
     width: 0;
     margin-left: 21%;
-    top: 35.5%;
+    top: 15%;
     border-color: #ee9ca7;
     height: 0px;
     border: solid;
@@ -108,7 +108,7 @@ div#text1{
     align-content: center;
     width: 0;
     margin-left: 21%;
-    top: 60%;
+    top: 25%;
     border-color: #ee9ca7;
     height: 0px;
     border: solid;
@@ -120,6 +120,32 @@ div#text1{
     opacity: 0;
     aninmation: p9 300s linear;
     -webkit-animation: p9 300s linear;
+}
+#second{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("背景图1.jpg");
+    opacity: 0;
+    animation: b1 300s;
+    -webkit-animation: b1 300s;
+}
+#text4{
+    position: absolute;
+    top:1%;
+    left: 10%;
+    right: 10%;
+    width: 100%;
+    height: 33%;
+    border-radius:15px ;
+    animation: k4 300s;
+    -webkit-animation: k4 300s;
+}
+#text4 p{
+    color: deeppink;
+    animation: p10 300s;
+    -webkit-animation: p10 300s;
 }
 @keyframes p1 {
   0%{opacity: 0}
@@ -648,67 +674,86 @@ div#text1{
     }
     2.4%{
         left: 20%;
-        top:15.5%;
+        top:5%;
         opacity: 1;
     }
     15.3%{
         left: 20%;
-        top:15.5%;
+        top:5%;
         opacity: 1;
     }
     16.3%{
         left: 20%;
-        top:35.5%;
+        top:15%;
         opacity: 1;
     }
     23.4%{
         left: 20%;
-        top:35.5%;
+        top:15%;
         opacity: 1;
     }
     24.4%{
         left: 20%;
-        top: 60%;
+        top: 25%;
         opacity: 1;
+    }
+    30.5%{
+        left: 20%;
+        top: 25%;
+        opacity: 1;
+    }
+    31%{
+        left: 20%;
+        top: -20px;
+        opacity: 0;
     }
 }
 @-webkit-keyframes firstball{
     0%{
         left:20%;
         top:0;
+        opacity: 0;
     }
     2%{
         left:20%;
         top:0;
         opacity: 0;
     }
-
     2.4%{
         left: 20%;
-        top:25.5%;
+        top:5%;
         opacity: 1;
     }
     15.3%{
         left: 20%;
-        top:15.5%;
+        top:5%;
         opacity: 1;
     }
     16.3%{
         left: 20%;
-        top:35.5%;
+        top:15%;
         opacity: 1;
     }
     23.4%{
         left: 20%;
-        top:35.5%;
+        top:15%;
         opacity: 1;
     }
     24.4%{
         left: 20%;
-        top: 60%;
+        top: 25%;
         opacity: 1;
     }
-
+    30.5%{
+        left: 20%;
+        top: 25%;
+        opacity: 1;
+    }
+    31%{
+        left: 20%;
+        top: -20px;
+        opacity: 0;
+    }
 }
 @keyframes firstnav {
     0%{
@@ -735,6 +780,20 @@ div#text1{
         top:0;
         height:100%;
         width: 10px;
+    }
+    30.5%{
+        left:20%;
+        top:0;
+        height:100%;
+        width: 10px;
+        opacity: 1;
+    }
+    31%{
+        left:20%;
+        top: -20px;
+        height: 0;
+        width: 20px;
+     opacity: 0;
     }
 
 }
@@ -764,6 +823,26 @@ div#text1{
         height:100%;
         width: 10px;
     }
+    30.5%{
+        left:20%;
+        top:0;
+        height:100%;
+        width: 10px;
+        opacity: 1;
+    }
+    31%{
+        left:20%;
+        top: -20px;
+        height: 0;
+        width: 20px;
+        opacity: 0;
+
+    }
+
+}
+@keyframes p10 {
+    0%{opacity: 0}
+    31
 
 }
 @keyframes k1 {
@@ -863,13 +942,13 @@ div#text1{
         opacity: 1;
     }
     18.3%{
-        height: 50%;
-        width:50%;
+        height: 55%;
+        width:45%;
         opacity: 1;
     }
     22.4%{
-        height: 50%;
-        width: 50%;
+        height: 55%;
+        width: 45%;
         opacity: 1;
     }
     23.4%{
@@ -888,13 +967,13 @@ div#text1{
         opacity: 1;
     }
     18.3%{
-        height: 50%;
-        width: 50%;
+        height: 55%;
+        width: 45%;
         opacity: 1;
     }
     22.4%{
-        height: 50%;
-        width: 50%;
+        height: 55%;
+        width: 45%;
         opacity: 1;
     }
     23.4%{
@@ -913,13 +992,13 @@ div#text1{
         opacity: 1;
     }
     25.4%{
-        height:50%;
+        height:60%;
         width: 50%;
         opacity: 1;
 
     }
     29.5%{
-        height: 50%;
+        height: 60%;
         width: 50%;
         opacity: 1;
     }
@@ -939,13 +1018,13 @@ div#text1{
         opacity: 1;
     }
     25.4%{
-        height:50%;
+        height:60%;
         width: 50%;
         opacity: 1;
 
     }
     29.5%{
-        height: 50%;
+        height: 60%;
         width: 50%;
         opacity: 1;
     }
@@ -954,4 +1033,37 @@ div#text1{
         width: 0;
         opacity: 0;
     }
+}
+@keyframes k4 {
+    0%{
+        opacity: 0;
+    }
+    30.9%{
+        opacity: 0;
+    }
+    31%{
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes k4 {
+    0%{
+        opacity: 0;
+    }
+    30.9%{
+        opacity: 0;
+    }
+    31%{
+        opacity: 1;
+    }
+}
+@keyframes b1 {
+    0%{opactiy:0;}
+    31%{opacity: 0}
+    31.1%{opacity: 1}
+}
+@-webkit-keyframes b1 {
+    0%{opactiy:0;}
+    31%{opacity: 0}
+    31.1%{opacity: 1}
 }
