@@ -44,6 +44,10 @@ div#leave_word{
     animation: firstnav 300s linear  ;
     -webkit-animation: firstnav 300s linear  ;
 }
+#second.nav{
+    animation: secondnav 300s ;
+    -webkit-animation: secondnav 300s;
+}
 div#text1{
     position: absolute;
     align-content: center;
@@ -133,13 +137,45 @@ div#text1{
     top:1%;
     left: 10%;
     right: 10%;
-    width: 100%;
+    width: 80%;
     height: 33%;
+    border: solid deeppink;
     border-radius:15px ;
     animation: k4 300s;
     -webkit-animation: k4 300s;
 }
 #text4 p{
+    color: deeppink;
+    animation: p10 300s;
+    -webkit-animation: p10 300s;
+}
+#text5{
+   left: 10%;
+    right: 10%;
+    position: absolute;
+    top:35% ;
+    border: solid deeppink;
+    border-radius: 15px;
+    animation: k5 300s;
+    -webkit-animation: k5 300s;
+}
+#text5 p{
+    animation: p11 300s;
+    -webkit-animation: p11 300s;
+}
+#text6{
+    position: absolute;
+    top:66%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 33%;
+    border: solid deeppink;
+    border-radius:15px ;
+    animation: k4 300s;
+    -webkit-animation: k4 300s;
+}
+#text6 p{
     color: deeppink;
     animation: p10 300s;
     -webkit-animation: p10 300s;
@@ -658,6 +694,65 @@ div#text1{
         opacity: 0;
     }
 }
+@keyframes p10 {
+    0%{opacity: 0}
+    31%{
+        opacity: 1;
+    }
+    36%{
+        opacity: 1;
+    }
+    36.1%{
+        opacity: 0;
+    }
+
+}
+@-webkit-keyframes p10 {
+    0%{opacity: 0}
+    31%{
+        opacity: 1;
+    }
+    36%{
+        opacity: 1;
+    }
+    36.1%{
+        opacity: 0;
+    }
+}
+@keyframes p11 {
+    0%{
+        opacity: 0;
+    }
+    33.1%{
+        opacity: 0;
+    }
+    34.1%{
+        opacity: 1;
+    }
+    36%{
+        opacity: 1;
+    }
+    36.1%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes p11 {
+    0%{
+        opacity: 0;
+    }
+    33.1%{
+        opacity: 0;
+    }
+    34.1%{
+        opacity: 1;
+    }
+    36%{
+        opacity: 1;
+    }
+    36.1%{
+        opacity: 0;
+    }
+}
 @keyframes firstball {
     0%{
         left:20%;
@@ -837,10 +932,36 @@ div#text1{
     }
 
 }
-@keyframes p10 {
-    0%{opacity: 0}
-    31
+@keyframes secondnav {
+0%{opacity: 0;top:-20px;}
+    31%{opacity: 1;top: -20px;}
+    32%{
+        opacity: 1;
+        top: 34%;
+    }
+    32.1%{
+        opacity: 0;
+        top: 34%;
+    }
+}
+@-webkit-keyframes secondnav {
 
+    0% {
+        opacity: 0;
+        top: -20px;
+    }
+    31% {
+        opacity: 1;
+        top: -20px;
+    }
+    32% {
+        opacity: 1;
+        top: 34%;
+    }
+    32.1% {
+        opacity: 0;
+        top: 34%;
+    }
 }
 @keyframes k1 {
     0%{
@@ -1041,6 +1162,12 @@ div#text1{
     31%{
         opacity: 1;
     }
+    36.1%{
+        opacity: 1;
+    }
+    37%{
+        opacity: 0;
+    }
 
 }
 @-webkit-keyframes k4 {
@@ -1053,14 +1180,67 @@ div#text1{
     31%{
         opacity: 1;
     }
+    36.1%{
+        opacity: 1;
+    }
+    37%{
+        opacity: 0;
+    }
+}
+@keyframes k5 {
+    32%{
+        opacity: 0;
+    }
+    32.1%{
+        top: 35%;
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    33.1%{
+        top: 35%;
+        height: 29%;
+        width: 80%;
+        opacity: 1;
+    }
+    36.1%{
+        opacity: 1;
+    }
+    37%{
+        opacity: 0;
+    }
+
+}
+@-webkit-keyframes k5 {
+    32%{
+        opacity: 0;
+    }
+    32.1%{
+        top: 35%;
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+    33.1%{
+        top: 35%;
+        height: 29%;
+        width: 80%;
+        opacity: 1;
+    }
+    36.1%{
+        opacity: 1;
+    }
+    37%{
+        opacity: 0;
+    }
 }
 @keyframes b1 {
-    0%{opactiy:0;}
+    0%{opacity:0;}
     31%{opacity: 0}
     31.1%{opacity: 1}
 }
 @-webkit-keyframes b1 {
-    0%{opactiy:0;}
+    0%{opacity:0;}
     31%{opacity: 0}
     31.1%{opacity: 1}
 }
