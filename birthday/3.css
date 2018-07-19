@@ -36,6 +36,10 @@ div#leave_word{
     font-family: 楷体;
     text-align: center;
 }
+.z2{
+font-size: 2.5em;
+    font-family: 楷体;
+}
 #first .ball {
     animation: firstball 300s linear  ;
     -webkit-animation:firstball 300s linear   ;
@@ -44,7 +48,7 @@ div#leave_word{
     animation: firstnav 300s linear  ;
     -webkit-animation: firstnav 300s linear  ;
 }
-#second.nav{
+#second.ball{
     animation: secondnav 300s ;
     -webkit-animation: secondnav 300s;
 }
@@ -145,7 +149,6 @@ div#text1{
     -webkit-animation: k4 300s;
 }
 #text4 p{
-    color: deeppink;
     animation: p10 300s;
     -webkit-animation: p10 300s;
 }
@@ -176,7 +179,6 @@ div#text1{
     -webkit-animation: k4 300s;
 }
 #text6 p{
-    color: deeppink;
     animation: p10 300s;
     -webkit-animation: p10 300s;
 }
@@ -699,10 +701,10 @@ div#text1{
     31%{
         opacity: 1;
     }
-    36%{
+    41%{
         opacity: 1;
     }
-    36.1%{
+    41.1%{
         opacity: 0;
     }
 
@@ -712,10 +714,10 @@ div#text1{
     31%{
         opacity: 1;
     }
-    36%{
+    41%{
         opacity: 1;
     }
-    36.1%{
+    41.1%{
         opacity: 0;
     }
 }
@@ -729,10 +731,10 @@ div#text1{
     34.1%{
         opacity: 1;
     }
-    36%{
+    41%{
         opacity: 1;
     }
-    36.1%{
+    41.1%{
         opacity: 0;
     }
 }
@@ -746,10 +748,10 @@ div#text1{
     34.1%{
         opacity: 1;
     }
-    36%{
+    41%{
         opacity: 1;
     }
-    36.1%{
+    41.1%{
         opacity: 0;
     }
 }
@@ -933,9 +935,18 @@ div#text1{
 
 }
 @keyframes secondnav {
-0%{opacity: 0;top:-20px;}
-    31%{opacity: 1;top: -20px;}
+   0%{
+       left: 10%;
+    opacity: 0;
+    top:0;
+}
+    31%{
+        left:10%;
+        opacity: 1;
+        top: 0;
+    }
     32%{
+        left: 10%;
         opacity: 1;
         top: 34%;
     }
@@ -943,24 +954,33 @@ div#text1{
         opacity: 0;
         top: 34%;
     }
+    100%{
+        opacity: 0;
+    }
 }
 @-webkit-keyframes secondnav {
 
-    0% {
+    0%{
+        left: 10%;
         opacity: 0;
-        top: -20px;
+        top:0;
     }
-    31% {
+    31%{
+        left:10%;
         opacity: 1;
-        top: -20px;
+        top: 0;
     }
-    32% {
+    32%{
+        left: 10%;
         opacity: 1;
         top: 34%;
     }
-    32.1% {
+    32.1%{
         opacity: 0;
         top: 34%;
+    }
+    100%{
+        opacity: 0;
     }
 }
 @keyframes k1 {
@@ -1162,10 +1182,10 @@ div#text1{
     31%{
         opacity: 1;
     }
-    36.1%{
+    42.1%{
         opacity: 1;
     }
-    37%{
+    43%{
         opacity: 0;
     }
 
@@ -1180,10 +1200,10 @@ div#text1{
     31%{
         opacity: 1;
     }
-    36.1%{
+    42.1%{
         opacity: 1;
     }
-    37%{
+    43%{
         opacity: 0;
     }
 }
@@ -1199,14 +1219,14 @@ div#text1{
     }
     33.1%{
         top: 35%;
-        height: 29%;
+        height: 30%;
         width: 80%;
         opacity: 1;
     }
-    36.1%{
+    42.1%{
         opacity: 1;
     }
-    37%{
+    43%{
         opacity: 0;
     }
 
@@ -1223,14 +1243,14 @@ div#text1{
     }
     33.1%{
         top: 35%;
-        height: 29%;
+        height: 30%;
         width: 80%;
         opacity: 1;
     }
-    36.1%{
+    42.1%{
         opacity: 1;
     }
-    37%{
+    43%{
         opacity: 0;
     }
 }
