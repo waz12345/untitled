@@ -18,7 +18,7 @@ div#leave_word{
     background: #fff;
     position: absolute;
     left: 20%;
-    top: 0px;
+    top: 0;
     z-index: 1;
     margin-left: -5px;
     opacity: 0;
@@ -32,9 +32,9 @@ div#leave_word{
     left: 20%;
 }
 .z{
-    font-size: 115%;
+    font-size: 2em;
     font-family: 楷体;
-    align-items: center;
+    text-align: center;
 }
 #first .ball {
     animation: firstball 300s linear  ;
@@ -50,9 +50,8 @@ div#text1{
     width: 0;
     margin-left: 21%;
     top: 5%;
-    border-color: #ee9ca7;
-    height: 0px;
-    border: solid;
+    border:solid #ee9ca7;
+    height: 0;
     opacity: 0;
     animation: k1 300s;
     -webkit-animation: k1 300s;
@@ -91,16 +90,15 @@ div#text1{
     width: 0;
     margin-left: 21%;
     top: 15%;
-    border-color: #ee9ca7;
-    height: 0px;
-    border: solid;
+    border: dotted #ee9ca7;
+    height: 0;
     opacity: 0;
     animation: k2 300s;
     -webkit-animation: k2 300s;
 }
 #text2 p{
     opacity: 0;
-    aninmation: p8 300s linear;
+    animation: p8 300s linear;
     -webkit-animation: p8 300s linear;
 }
 #text3{
@@ -109,16 +107,15 @@ div#text1{
     width: 0;
     margin-left: 21%;
     top: 25%;
-    border-color: #ee9ca7;
-    height: 0px;
-    border: solid;
+    height:0;
+    border: solid #ee9ca7;
     opacity: 0;
     animation: k3 300s;
     -webkit-animation: k3 300s;
 }
 #text3 p{
     opacity: 0;
-    aninmation: p9 300s linear;
+    animation: p9 300s linear;
     -webkit-animation: p9 300s linear;
 }
 #second{
