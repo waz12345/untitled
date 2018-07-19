@@ -2,6 +2,8 @@ body{
     background:url("背景图4.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    animation: main 300s;
+    -webkit-animation: main 300s;
 }
 div#leave_word{
     height:100%;
@@ -49,8 +51,8 @@ font-size: 2.5em;
     -webkit-animation: firstnav 300s linear  ;
 }
 #second.ball{
-    animation: secondnav 300s ;
-    -webkit-animation: secondnav 300s;
+    animation: secondball 300s ;
+    -webkit-animation: secondball 300s;
 }
 div#text1{
     position: absolute;
@@ -934,11 +936,11 @@ div#text1{
     }
 
 }
-@keyframes secondnav {
+@keyframes secondball {
    0%{
        left: 10%;
-    opacity: 0;
-    top:0;
+       opacity: 0;
+       top:0;
 }
     31%{
         left:10%;
@@ -958,7 +960,7 @@ div#text1{
         opacity: 0;
     }
 }
-@-webkit-keyframes secondnav {
+@-webkit-keyframes secondball {
 
     0%{
         left: 10%;
