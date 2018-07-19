@@ -2,8 +2,6 @@ body{
     background:url("背景图4.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    animation: main 300s;
-    -webkit-animation: main 300s;
 }
 div#leave_word{
     height:100%;
@@ -184,6 +182,11 @@ div#text1{
     animation: p10 300s;
     -webkit-animation: p10 300s;
 }
+#text7 p{
+    animation: p12 300s linear;
+    -webkit-animation: p12 300s linear;
+}
+
 @keyframes p1 {
   0%{opacity: 0}
     2%{
@@ -757,6 +760,42 @@ div#text1{
         opacity: 0;
     }
 }
+@keyframes p12 {
+    0%{
+opacity: 0;
+}
+    44%{
+        opacity: 0;
+    }
+    46%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    51%{
+        opacity: 0;
+    }
+
+}
+@-webkit-keyframes p12 {
+
+    0% {
+        opacity: 0;
+    }
+    44% {
+        opacity: 0;
+    }
+    46% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    51% {
+        opacity: 0;
+    }
+}
 @keyframes firstball {
     0%{
         left:20%;
@@ -1260,9 +1299,21 @@ div#text1{
     0%{opacity:0;}
     31%{opacity: 0}
     31.1%{opacity: 1}
+    43%{
+        opacity: 1;
+    }
+    43.2%{
+        opacity: 0;
+    }
 }
 @-webkit-keyframes b1 {
     0%{opacity:0;}
     31%{opacity: 0}
     31.1%{opacity: 1}
+    43%{
+        opacity: 1;
+    }
+    43.2%{
+        opacity: 0;
+    }
 }
