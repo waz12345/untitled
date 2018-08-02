@@ -1,9 +1,11 @@
 body{
+    padding: 0;
+    margin: 0;
+}
+div#leave_word{
     background:url("背景图4.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-}
-div#leave_word{
     height:100%;
     width:100%;
     padding: 0;
