@@ -39,7 +39,7 @@ div#leave_word{
     text-align: center;
 }
 .z2{
-font-size: 2.5em;
+    font-size: 2.5em;
     font-family: 楷体;
 }
 #first .ball {
@@ -155,7 +155,7 @@ div#text1{
     -webkit-animation: p10 300s;
 }
 #text5{
-   left: 10%;
+    left: 10%;
     right: 10%;
     position: absolute;
     top:35% ;
@@ -184,9 +184,23 @@ div#text1{
     animation: p10 300s;
     -webkit-animation: p10 300s;
 }
+#three{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("背景图3.jpg");
+    opacity: 0;
+    animation: b2 300s;
+    -webkit-animation: b2 300s;
+    -moz-animation: b2 300s;
+}
 #text7 p{
     animation: p12 300s linear;
     -webkit-animation: p12 300s linear;
+    -moz-animation: p12 300s linear;
 }
 
 @keyframes p1 {
@@ -766,37 +780,56 @@ div#text1{
     0%{
 opacity: 0;
 }
-    44%{
+    43.2%{
         opacity: 0;
     }
-    46%{
+    44%{
         opacity: 1;
     }
-    50%{
+    48%{
         opacity: 1;
     }
-    51%{
+    49%{
         opacity: 0;
     }
 
 }
 @-webkit-keyframes p12 {
 
-    0% {
+    0%{
         opacity: 0;
     }
-    44% {
+    43.2%{
         opacity: 0;
     }
-    46% {
+    44%{
         opacity: 1;
     }
-    50% {
+    48%{
         opacity: 1;
     }
-    51% {
+    49%{
         opacity: 0;
     }
+
+}
+@-moz-keyframes p12 {
+    0%{
+        opacity: 0;
+    }
+    43.2%{
+        opacity: 0;
+    }
+    44%{
+        opacity: 1;
+    }
+    48%{
+        opacity: 1;
+    }
+    49%{
+        opacity: 0;
+    }
+
 }
 @keyframes firstball {
     0%{
@@ -1316,6 +1349,58 @@ opacity: 0;
         opacity: 1;
     }
     43.2%{
+        opacity: 0;
+    }
+}
+@keyframes b2{
+    0%{
+        opacity: 0;
+    }
+    43.1%{
+        opacity: 0;
+    }
+    43.2%{
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    49.1%{
+        opacity: 0;
+    }
+
+}
+@-webkit-keyframes b2 {
+    0%{
+        opacity: 0;
+    }
+    43.1%{
+        opacity: 0;
+    }
+    43.2%{
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    49.1%{
+        opacity: 0;
+    }
+}
+@-moz-keyframes b2 {
+    0%{
+        opacity: 0;
+    }
+    43.1%{
+        opacity: 0;
+    }
+    43.2%{
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    49.1%{
         opacity: 0;
     }
 }
