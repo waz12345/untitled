@@ -20,7 +20,7 @@ div#leave_word{
     border-radius: 10px;
     background: #fff;
     position: absolute;
-    left: 20%;
+    left: 50%;
     top: 0;
     z-index: 1;
     margin-left: -5px;
@@ -33,6 +33,16 @@ div#leave_word{
     position: absolute;
     background: #ccc;
     left: 20%;
+}
+.nav2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: red;
+    left: 10%;
+    top: -20%;
+    opacity: 0;
 }
 .z{
     font-size: 2.4em;
@@ -188,8 +198,13 @@ div#text1{
     -webkit-animation: p10 300s;
 }
 #three #text7 p{
+    opacity: 0;
     animation: p12 300s linear;
     -webkit-animation: p12 300s linear;
+}
+#four.nav2{
+    animation: threenav 300s;
+    -webkit-animation: threenav 300s;
 }
 
 @keyframes p1 {
@@ -1027,6 +1042,32 @@ div#text1{
     100%{
         opacity: 0;
     }
+}
+@keyframes threenav {
+    0%{
+        transform:rotate(0deg);
+        top:-20%;
+        opacity: 0;
+        left: 50%;
+    }
+    49%{
+        transform:rotate(0deg);
+        top:-20%;
+        opacity: 1;
+        left: 50%;
+    }
+    50%{
+        transform:rotate(3600deg);
+        top: 40%;
+        opacity: 1;
+        left: 50%;
+    }
+    50.1%{
+        top: 40%;
+        opacity: 0;
+        left: 50%;
+    }
+
 }
 @keyframes k1 {
     0%{
