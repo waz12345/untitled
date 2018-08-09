@@ -34,15 +34,19 @@ div#leave_word{
     background: #ccc;
     left: 20%;
 }
-.nav2{
-    position: absolute;
+.ball2{
     width: 20px;
     height: 20px;
     border-radius: 10px;
     background: red;
-    left: 10%;
-    top: -20%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+    margin-left: -5px;
     opacity: 0;
+    animation: threeball 300s linear;
+    -webkit-animation: threeball 300s linear;
 }
 .z{
     font-size: 2.4em;
@@ -50,7 +54,7 @@ div#leave_word{
     text-align: center;
 }
 .z2{
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 楷体;
 }
 #first .ball {
@@ -202,9 +206,19 @@ div#text1{
     animation: p12 300s linear;
     -webkit-animation: p12 300s linear;
 }
-#four.nav2{
-    animation: threenav 300s;
-    -webkit-animation: threenav 300s;
+#text8{
+    position: absolute;
+    border: solid deeppink;
+    left: 50%;
+    top: 40%;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    animation: k6 300s;
+    -webkit-animation: k6 300s;
+}
+#text8 p{
+
 }
 
 @keyframes p1 {
@@ -994,56 +1008,8 @@ div#text1{
     }
 
 }
-@keyframes secondball {
-   0%{
-       left: 10%;
-       opacity: 0;
-       top:0;
-}
-    31%{
-        left:10%;
-        opacity: 1;
-        top: 0;
-    }
-    32%{
-        left: 10%;
-        opacity: 1;
-        top: 34%;
-    }
-    32.1%{
-        opacity: 0;
-        top: 34%;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-@-webkit-keyframes secondball {
 
-    0%{
-        left: 10%;
-        opacity: 0;
-        top:0;
-    }
-    31%{
-        left:10%;
-        opacity: 1;
-        top: 0;
-    }
-    32%{
-        left: 10%;
-        opacity: 1;
-        top: 34%;
-    }
-    32.1%{
-        opacity: 0;
-        top: 34%;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-@keyframes threenav {
+@keyframes threeball {
     0%{
         transform:rotate(0deg);
         top:-20%;
@@ -1051,8 +1017,11 @@ div#text1{
         left: 50%;
     }
     49%{
+        opacity: 0;
+    }
+    49.3%{
         transform:rotate(0deg);
-        top:-20%;
+        top:0;
         opacity: 1;
         left: 50%;
     }
@@ -1064,10 +1033,38 @@ div#text1{
     }
     50.1%{
         top: 40%;
-        opacity: 0;
+        opacity: 1;
         left: 50%;
     }
 
+}
+@-webkit-keyframes threeball {
+    0%{
+        transform:rotate(0deg);
+        top:0;
+        opacity: 0;
+        left: 50%;
+    }
+    49%{
+        opacity: 0;
+    }
+    49.3%{
+        transform:rotate(0deg);
+        top:0;
+        opacity: 1;
+        left: 50%;
+    }
+    50%{
+        transform:rotate(3600deg);
+        top: 40%;
+        opacity: 1;
+        left: 50%;
+    }
+    50.1%{
+        top: 40%;
+        opacity: 1;
+        left: 50%;
+    }
 }
 @keyframes k1 {
     0%{
@@ -1338,6 +1335,36 @@ div#text1{
     }
     43%{
         opacity: 0;
+    }
+}
+@keyframes k6 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    51%{
+        width: 40%;
+        height: 60%;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes k6 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    51%{
+        width: 50%;
+        height: 50%;
+        opacity: 1;
     }
 }
 @keyframes b1 {
