@@ -210,15 +210,18 @@ div#text1{
 #four #text8 {
     z-index: 2;
     align-items: center;
+    left: 30%;
     width:100%;
     height: 100%;
     position: absolute;
     top: -250%;
     opacity: 1;
     animation: sixth_textbox8 300s linear  ;
-    -webkit-animation: sixth_textbox8 300s linear  ;
+    -webkit-animation: sixth_textbox8 300s linear;
 }
+
 #text8 p{
+
     align-items: center;
     display:block;
     font-size: 2.5em;
