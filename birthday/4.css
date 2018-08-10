@@ -10,9 +10,14 @@ div#new{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.z{
+    font-size: 2.4em;
+    font-family: 楷体;
+    text-align: center;
+}
 #new2{
     position: absolute;
-    left: 40px;
-    top:70px;
-    width: 80%;
+    left: 20%;
+    top:30%;
+    width: 60%;
 }
