@@ -37,10 +37,9 @@ div#leave_word{
 .ball2{
     width: 20px;
     height: 20px;
-    border-radius: 10px;
-    background: red;
+    background: deeppink;
     position: absolute;
-    left: 50%;
+    left: 0;
     top: 0;
     z-index: 1;
     margin-left: -5px;
@@ -206,18 +205,34 @@ div#text1{
     animation: p12 300s linear;
     -webkit-animation: p12 300s linear;
 }
-#text8{
+#four{
+    height: 100%;
+    width: 100%;
     position: absolute;
-    border: solid deeppink;
-    left: 50%;
-    top: 40%;
-    width: 50%;
-    height: 50%;
-    opacity: 0;
-    animation: k6 300s;
-    -webkit-animation: k6 300s;
+    align-items: center;
 }
-#text8 p{
+#four #text8 {
+    z-index: 2;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: -102%;
+    opacity: 1;
+    animation: sixth_textbox8 300s linear  ;
+    -webkit-animation: sixth_textbox8 300s linear  ;
+}
+#text8 span{
+    display:block;
+    font-size: 12px;
+}
+#last{
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: aaa 300s linear ;
+    -webkit-animation: aaa 300s linear;
 
 }
 
@@ -829,6 +844,28 @@ div#text1{
         opacity: 0;
     }
 }
+@keyframes p13 {
+    0%{
+        opacity: 0;
+    }
+    51.9%{
+        opacity: 0;
+    }
+    52%{
+        opacity: 1;
+        top: 91%;
+        left: 20%;
+    }
+    60%{
+        opacity: 1;
+        top: 20%;
+        left: 20%;
+    }
+
+}
+@-webkit-keyframes p13 {
+
+}
 @keyframes firstball {
     0%{
         left:20%;
@@ -1012,9 +1049,9 @@ div#text1{
 @keyframes threeball {
     0%{
         transform:rotate(0deg);
-        top:-20%;
+        top:0;
         opacity: 0;
-        left: 50%;
+        left: 20%;
     }
     49%{
         opacity: 0;
@@ -1023,27 +1060,59 @@ div#text1{
         transform:rotate(0deg);
         top:0;
         opacity: 1;
-        left: 50%;
+        left: 20%;
     }
     50%{
         transform:rotate(3600deg);
-        top: 40%;
+        top: 50%;
         opacity: 1;
         left: 50%;
+        width: 20px;
+        height: 20px;
     }
-    50.1%{
-        top: 40%;
+    51%{
+        transform: rotate(0deg);
+        top: 0;
+        opacity: 1;
+        left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    52%{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    65%{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    66%{
+        transform: rotate(0deg);
+        top: 0;
+        opacity: 1;
+        left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    67%{
+        transform:rotate(3600deg);
+        top: 50%;
         opacity: 1;
         left: 50%;
+        width: 20px;
+        height: 20px;
     }
-
 }
 @-webkit-keyframes threeball {
     0%{
         transform:rotate(0deg);
         top:0;
         opacity: 0;
-        left: 50%;
+        left: 20%;
     }
     49%{
         opacity: 0;
@@ -1052,18 +1121,67 @@ div#text1{
         transform:rotate(0deg);
         top:0;
         opacity: 1;
-        left: 50%;
+        left: 20%;
     }
     50%{
         transform:rotate(3600deg);
-        top: 40%;
+        top: 50%;
         opacity: 1;
         left: 50%;
+        width: 20px;
+        height: 20px;
     }
-    50.1%{
-        top: 40%;
+    51%{
+        transform: rotate(0deg);
+        top: 0;
+        opacity: 1;
+        left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    52%{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    65%{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    66%{
+        transform: rotate(0deg);
+        top: 0;
+        opacity: 1;
+        left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    67%{
+        transform:rotate(3600deg);
+        top: 50%;
         opacity: 1;
         left: 50%;
+        width: 20px;
+        height: 20px;
+    }
+    68%{
+        transform: rotate(0deg);
+        top: 50%;
+        opacity: 1;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+    }
+    100%{
+        transform: rotate(0deg);
+        top: 50%;
+        opacity: 1;
+        left: 50%;
+        width: 20px;
+        height: 20px;
     }
 }
 @keyframes k1 {
@@ -1337,21 +1455,6 @@ div#text1{
         opacity: 0;
     }
 }
-@keyframes k6 {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        width: 0;
-        height: 0;
-        opacity: 0;
-    }
-    51%{
-        width: 40%;
-        height: 60%;
-        opacity: 1;
-    }
-}
 @-webkit-keyframes k6 {
     0%{
         opacity: 0;
@@ -1387,5 +1490,27 @@ div#text1{
     }
     43.2%{
         opacity: 0;
+    }
+}
+@keyframes sixth_textbox8 {
+    0%{
+        top:100%;
+    }
+    52%{
+        top:100%;
+    }
+    65%{
+        top:-102%;
+    }
+}
+@-webkit-keyframes sixth_textbox8 {
+    0%{
+        top:100%;
+    }
+    52%{
+        top:100%;
+    }
+    65%{
+        top:-102%;
     }
 }
