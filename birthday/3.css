@@ -205,12 +205,6 @@ div#text1{
     animation: p12 300s linear;
     -webkit-animation: p12 300s linear;
 }
-#four{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    align-items: center;
-}
 #four #text8 {
     z-index: 2;
     align-items: center;
@@ -843,28 +837,6 @@ div#text1{
     49%{
         opacity: 0;
     }
-}
-@keyframes p13 {
-    0%{
-        opacity: 0;
-    }
-    51.9%{
-        opacity: 0;
-    }
-    52%{
-        opacity: 1;
-        top: 91%;
-        left: 20%;
-    }
-    60%{
-        opacity: 1;
-        top: 20%;
-        left: 20%;
-    }
-
-}
-@-webkit-keyframes p13 {
-
 }
 @keyframes firstball {
     0%{
@@ -1512,5 +1484,34 @@ div#text1{
     }
     65%{
         top:-102%;
+    }
+}
+@keyframes aaa {
+    0%{
+        opacity: 0;
+    }
+    66.5%{
+        opacity: 0;
+    }
+    67%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes aaa {
+    0%{
+        opacity: 0;
+    }
+    66.5%{
+        opacity: 0;
+    }
+    67%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
     }
 }
