@@ -218,7 +218,8 @@ div#text1{
     animation: sixth_textbox8 300s linear  ;
     -webkit-animation: sixth_textbox8 300s linear  ;
 }
-#text8 span{
+#text8 p{
+    align-items: center;
     display:block;
     font-size: 2.5em;
 }
@@ -227,6 +228,7 @@ div#text1{
     position: absolute;
     left: 50%;
     top: 50%;
+    font-size: large;
     animation: aaa 300s linear ;
     -webkit-animation: aaa 300s linear;
 
