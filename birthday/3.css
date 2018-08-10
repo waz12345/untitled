@@ -213,7 +213,7 @@ div#text1{
     width:100%;
     height: 100%;
     position: absolute;
-    top: -102%;
+    top: -190%;
     opacity: 1;
     animation: sixth_textbox8 300s linear  ;
     -webkit-animation: sixth_textbox8 300s linear  ;
@@ -225,9 +225,8 @@ div#text1{
 }
 #last{
     opacity: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    margin-left: 50%;
+    margin-top: 50%;
     font-size: large;
     animation: aaa 300s linear ;
     -webkit-animation: aaa 300s linear;
