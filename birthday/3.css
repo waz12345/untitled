@@ -229,7 +229,7 @@ div#text1{
     z-index: 5;
     left: 50%;
     top: 50%;
-    font-size: large;
+    font-size: 2.5em;
     animation: aaa 300s linear ;
     -webkit-animation: aaa 300s linear;
 
