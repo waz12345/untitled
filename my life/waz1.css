@@ -1,0 +1,39 @@
+body{
+    background: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+div#first{
+    position: absolute;
+    height: auto;
+    top: 20px;
+    left: 25%;
+    border-style:dashed ;
+    border-color: deeppink;
+    width: 20%;
+}
+div#second{
+    position: absolute;
+    top: 20px;
+    left: 75%;
+    border-style: dashed;
+    border-color: deeppink;
+    width: 20%;
+    height: auto;
+}
+.a{
+    font-family:楷书;
+    font-size:  300%;
+}
+a:link{
+    color: #007e7e;
+}
+a:visited{
+    color:#333333;
+  }
+a:hover{
+    background: #f88396;
+    color: #0d5353;
+}
