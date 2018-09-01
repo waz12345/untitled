@@ -1,0 +1,55 @@
+body{
+    background-color: #f88396;
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#head{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-right: 10%;
+
+}
+.a{
+    text-decoration:underline;
+}
+div#first{
+    position: static;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+div#second{
+    position: absolute;
+    width: 10%;
+    left: 5%;
+   top:55%;
+}
+div#wuyong{
+    position: absolute;
+    width: 10%;
+    right: 5%;
+    top: 55%;
+    border-style: dashed;
+    border-color: deeppink;
+    height: 300px;
+}
+div#third{
+    color: tan;
+}
+.b{
+    color: red;
+}
+span{
+    color: coral;
+}
+div#w{
+    color: red;
+}
+div#sixth{
+    color: #007e7e;
+}
+ul{
+    float: left;
+}
