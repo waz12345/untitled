@@ -26,6 +26,7 @@ div#second{
 .a{
     font-family:楷书;
     font-size:  300%;
+    text-align: center;
 }
 a:link{
     color: #007e7e;

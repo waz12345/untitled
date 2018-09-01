@@ -1,5 +1,8 @@
 body{
     background-color: #f88396;
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #head{
     width: 80%;
@@ -21,13 +24,13 @@ div#second{
     position: absolute;
     width: 10%;
     left: 5%;
-   top: 420px;
+   top:55%;
 }
 div#wuyong{
     position: absolute;
     width: 10%;
     right: 5%;
-    top: 420px;
+    top: 55%;
     border-style: dashed;
     border-color: deeppink;
     height: 300px;
@@ -41,6 +44,12 @@ div#third{
 span{
     color: coral;
 }
-div#firsth{
-
+div#w{
+    color: red;
+}
+div#sixth{
+    color: #007e7e;
+}
+ul{
+    float: left;
 }
