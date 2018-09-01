@@ -24,13 +24,13 @@ div#second{
     position: absolute;
     width: 10%;
     left: 5%;
-   top:55%;
+   top:60%;
 }
 div#wuyong{
     position: absolute;
     width: 10%;
     right: 5%;
-    top: 55%;
+    top: 60%;
     border-style: dashed;
     border-color: deeppink;
     height: 300px;
