@@ -9,31 +9,39 @@ body{
     margin-left: 10%;
     text-align: center;
     margin-right: 10%;
+    margin-top: 0;
 
 }
 .a{
     text-decoration:underline;
 }
-div#first{
-    position: static;
+div#one{
+    border-style:dashed ;
+    border-color: deeppink;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
-div#second{
-    position: absolute;
+div#tow{
     width: 10%;
+    position: absolute;
+    top: 50%;
     left: 5%;
-   top:60%;
+    font-size: 12px;
+    height:200px;
+    border-style: dashed;
+    border-color: deeppink;
 }
 div#wuyong{
     position: absolute;
     width: 10%;
     right: 5%;
-    top: 60%;
+    top: 50%;
     border-style: dashed;
     border-color: deeppink;
-    height: 300px;
+    height: 200px;
+    display: inline;
+    font-size: 12px;
 }
 div#third{
     color: tan;
