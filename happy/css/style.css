@@ -2,12 +2,13 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
 body {
   background: #ee9ca7;
 }
+
 
 #cake {
   display: block;
