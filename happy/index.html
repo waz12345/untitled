@@ -183,31 +183,10 @@
     </path>
     <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
 </svg>
-  <audio src="music/b2.mp3"  autoplay="autoplay" loop="loop" preload="auto" id="audio" ></audio>
+  <audio src="music/b2.mp3"  autoplay="autoplay" loop="loop"  ></audio>
 <div class="text">
   <h1>happy birthday!</h1>
   <p>祝周艳霞同学生日快乐</p>
 </div>
-<script>
-
-    document.addEventListener('DOMContentLoaded', function () {
-        function audioAutoPlay() {
-            var audio = document.getElementById('audio');
-            audio.play();
-            document.addEventListener("WeixinJSBridgeReady", function () {
-                audio.play();
-            }, false);
-        }
-        audioAutoPlay();
-    });
-    //--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
-    document.addEventListener('touchstart', function () {
-        function audioAutoPlay() {
-            var audio = document.getElementById('audio');
-            audio.play();
-        }
-        audioAutoPlay();
-    });
-</script>
 </body>
 </html>
