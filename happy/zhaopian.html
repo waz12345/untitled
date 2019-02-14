@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>你的网站</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+
+        }
+        html{
+            font-size: 10px;
+        }
+        body{
+
+        }
+        #xuyan{
+            position: absolute;
+             top: 0;
+            left: 0;
+            width: 100%;
+            height: 33%;
+            background-color: #398bfb;
+        }
+        #xuyan p:nth-child(1){
+            text-align: center;
+            border-bottom:1px solid #cccccc ;
+            font-size: 3rem;
+            font-style: italic;
+            width: 98%;
+            position: absolute;
+            left: 1%;
+        }
+        #xuyan p:nth-child(2){
+            font-size: 2rem;
+            padding-top: 5rem;
+            text-align: center;
+        }
+        #zp{
+            position: absolute;
+            top: 33%;
+            left: 0;
+            width: 100%;
+            height: 33%;
+            background-color:greenyellow;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #zs{
+            position: absolute;
+            top: 53.5%;
+            height: 12.5%;
+            left: -1rem;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #zs .second{
+            height: 100%;
+            width: 3rem;
+            background-color: brown;
+        }
+        #zp .first{
+            height: 7rem;
+            width: 15rem;
+            text-align: center;
+            background:
+                    linear-gradient(-135deg,transparent 30px,brown 0) top right,
+                    linear-gradient(-45deg,transparent 30px,brown 0) bottom right,
+                    linear-gradient(135deg,transparent 15px,brown 0) top left,
+                    linear-gradient(45deg,transparent 15px,brown 0) bottom left;
+            background-size:50% 50%;
+            background-repeat:no-repeat;
+
+            border-top-left-radius:5rem;
+            border-bottom-left-radius: 5rem;
+
+      }
+        #zp .second{
+
+        }
+        #zp span a{
+            height: 5rem;
+            width: 10rem;
+            font-size: 3rem;
+            color: black;
+            line-height: 7rem;
+
+        }
+        #sp{
+            position: absolute;
+            left: 0;
+            top: 70%;
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: space-around;
+        }
+        video{
+            width: 23%;
+            height: 80%;
+        }
+        #j1{
+            position: absolute;
+            top:33%;
+            width: 100%;
+            z-index: 999;
+            border-bottom:1px solid #cccccc ;
+            font-size: 3rem;
+            font-style: italic;
+            text-align: center;
+        }
+        #j2{
+            position: absolute;
+            top: 66%;
+            left: 0;
+            width: 100%;
+            border-bottom:1px solid #cccccc ;
+            font-size: 3rem;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <div id="xuyan">
+       <p>序言</p>
+       <!--<p>-->
+           <!--本来想在每张照片下加上我的一些评论 哈哈 但是 基于我的语文水平和审美 怕弄巧成拙-->
+           <!--里面的照片有一些是来自你的空间 有一些是来自我的手机（偷拍）千万不能生气！-->
+       <!--</p>-->
+   </div>
+   <div id="j1">照片</div>
+   <div id="zp">
+       <span class="first"><a href="#">瀑布相册</a> </span>
+       <span class="first"><a href="#">相片墙</a> </span>
+   </div>
+   <div id="zs">
+       <span class="second"></span>
+       <span class="second"></span>
+   </div>
+   <div id="j2">比赛视频</div>
+   <div id="sp">
+       <video src="iyou/s/t1.mp4" controls="controls" ></video>
+       <video src="iyou/s/g1.mp4" controls="controls" ></video>
+       <video src="iyou/s/g2.mp4" controls="controls" ></video>
+       <video src="iyou/s/g3.mp4" controls="controls"></video>
+   </div>
+</body>
+</html>
